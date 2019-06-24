@@ -13,7 +13,6 @@ public class SSOUser implements Serializable {
 	private Long id;
 	private String username;
 	private String other;
-	private String version;
 
 	public String getUsername() {
 		return username;
@@ -29,14 +28,6 @@ public class SSOUser implements Serializable {
 
 	public void setOther(String other) {
 		this.other = other;
-	}
-
-	public String getVersion() {
-		return version;
-	}
-
-	public void setVersion(String version) {
-		this.version = version;
 	}
 
 	public Long getId() {

@@ -10,10 +10,9 @@ import com.majiaxueyuan.sso.core.helper.TokenLoginHelper;
 public class TokenController {
 	@RequestMapping("/login")
 	public String login(Long id, String username, String password) {
-
 		if (username.equals("admin") && password.equals("123456")) {
 			// 表示登录成功
-			Result loginSuccess = TokenLoginHelper.loginSuccess(id, username, password);
+			Result loginSuccess = TokenLoginHelper.loginSuccess(id, username, password, "mjxy2");
 			String token = loginSuccess.getData().toString();
 			System.out.println(token);
 			return "token:" + token;
