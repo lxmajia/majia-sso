@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.majiaxueyuan</groupId>
 	<artifactId>majia-sso</artifactId>
-	<version>1.0.1</version>
+	<version>1.1.0</version>
 	<packaging>pom</packaging>
 
 	<description>码家学院自研SSO单点登录系统</description>
